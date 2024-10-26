@@ -15,10 +15,10 @@ Our logistics startup is dedicated to:
 
 ## 📊 Figures
 
-![Freezer Compartment Products]()
+![Freezer Compartment Products](./assets/Freezer.png)
 _Figure 1: Specifications of Freezer Compartment Products_
 
-![Non-Freezer Compartment Products]()
+![Non-Freezer Compartment Products](./assets/NonFreezer.png)
 _Figure 2: Specifications of Non-Freezer Compartment Products_
 
 ---
@@ -40,18 +40,20 @@ We aim to maximize profit by determining the optimal product mix in both freezer
 
 ## 📊 Mathematical Model
 ### **Inputs and Parameters**
-- **Weight (𝑊𝑖)**, **Volume (𝑉𝑖)** for each product
-- **Unit prices**: store (𝑝𝑠𝑖) and farmer (𝑝𝑓𝑖)
-- **Storage Limits**: Freezer (8 tons, 350 cu ft) and Non-Freezer (13 tons, 650 cu ft)
+![Input/Parameters](./assets/Inputs.png)
+
+![Decision Variable](./assets/DecisionVariable.png)
   
 ### **Objective**:  
 Maximize profit:  
-
+![Objective](./assets/Objective.png)
 
 ### **Constraints**:
 1. Weight constraints for Freezer and Non-Freezer compartments.
 2. Volume limits for each compartment.
 3. Bounds for each product type.
+
+![Constraints](./assets/Constraints.png)
 
 ---
 
